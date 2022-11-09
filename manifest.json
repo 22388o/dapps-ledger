@@ -1,0 +1,59 @@
+{
+  "id": "changelly",
+  "name": "Changelly",
+  "url": "https://eth-dapp-browser-ne49wqncp-ledgerhq.vercel.app",
+  "homepageUrl": "https://changelly.com/",
+  "params": {
+    "dappUrl": "https://dapps-ledger.changelly.com",
+    "nanoApp": "Ethereum",
+    "dappName": "Changelly",
+    "networks": [
+      {
+        "currency": "avalanche",
+        "chainID": 43114,
+        "nodeURL": "https://api.avax.network/ext/bc/C/rpc"
+      },
+      {
+        "currency": "bsc",
+        "chainID": 56,
+        "nodeURL": "https://bsc-dataseed1.binance.org"
+      },
+      {
+        "currency": "fantom",
+        "chainID": 50,
+        "nodeURL": "https://rpc.ftm.tools"
+      },
+      {
+        "currency": "ethereum",
+        "chainID": 1,
+        "nodeURL": "wss://eth-mainnet.ws.alchemyapi.io/v2/0fyudoTG94QWC0tEtfJViM9v2ZXJuij2"
+      },
+      {
+        "currency": "polygon",
+        "chainID": 137,
+        "nodeURL": "https://polygon-mainnet.g.alchemy.com/v2/oPIxZM7kXsPVVY1Sk0kOQwkoIOpSu8PE"
+      }
+    ]
+  },
+  "icon": "",
+  "platform": "all",
+  "apiVersion": "0.0.1",
+  "manifestVersion": "1",
+  "branch": "master",
+  "categories": ["tools"],
+  "currencies": "*",
+  "content": {
+    "shortDescription": {
+      "en": "Simple and efficient DeFi swap aggregator."
+    },
+    "description": {
+      "en": "Simple and efficient DeFi swap aggregator. Find the best rate and swap thousands tokens in Ethereum, BSC, Polygon."
+    }
+  },
+  "permissions": [
+    {
+      "method": "*"
+    }
+  ],
+  "domains": ["https://*"]
+}

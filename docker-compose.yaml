@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  ledger:
+    image: $image_name
+    network_mode: host
+    restart: always
+    container_name: ledger
